@@ -1,24 +1,5 @@
-# README
+# JS Hogs Project for the 030220 Cohort
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Rails Back End
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Front end is [here](https://github.com/cjbrock/js-hogs-front-end-030220)
