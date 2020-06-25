@@ -15,6 +15,7 @@ class HogsController < ApplicationController
 
   # POST /hogs
   def create
+    binding.pry
     @hog = Hog.new(hog_params)
 
     if @hog.save
@@ -46,6 +47,6 @@ class HogsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def hog_params
-      params.require(:hog).permit(:name, :specialty, :greased, :weight, :highest_medal_achieved, :image)
+      params.require(:hog).permit(:name, :specialty, :greased, :weight, :highest_medal_achieved, :image, piglets_attributes: [:name, :color, :sex, :cuteness_factor, :hog_id])
     end
 end
